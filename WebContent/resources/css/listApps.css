@@ -1,0 +1,35 @@
+* {<br /> margin:0;<br /> padding:0;<br /> list-style:none;<br /> vertical-align:baseline;<br /> }
+
+.div_listApps {display:none;}
+.labelListApps {font-weight: bold;}
+.li_ListApps {display: block;}
+
+
+#wrapper #container #pageBodyID ul li {
+	position: relative;
+}
+
+#wrapper #container #pageBodyID ul li div.div_listApps{
+	height: 130px;
+}
+#wrapper #container #pageBodyID ul li div div.div_left {
+	float: left;
+    background: #11af16;
+    height: 120px;
+    width: 120px;
+}
+#wrapper #container #pageBodyID ul li div div.div_right {
+    float: left;
+    background: #47b7f9;
+    height: 120px;
+    width: 90%;
+}
+#wrapper #container #pageBodyID ul li div div.div_left a {
+	padding: 0px 120px 103px 0px;
+}
+#wrapper #container #pageBodyID ul li div div.div_left a:hover {
+	background: #e0e24d;
+}
+#wrapper #container #pageBodyID ul li div div.div_left a.seleted, #wrapper #container #pageBodyID ul li div div.div_left a:visited, #wrapper #container #pageBodyID ul li div div.div_left a:active {
+	background: #30c557;
+}
